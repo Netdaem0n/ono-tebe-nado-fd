@@ -301,6 +301,7 @@
   line-height: 1.2em;
 }
 
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
