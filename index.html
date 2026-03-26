@@ -13,17 +13,25 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="list_circle_none">главная</li>
-          <li class="uderline_text">посмотреть лоты</li>
-          <li class="uderline_text">об аукционе</li>
+          <li class="list_circle_none"><a class="link" href="#">главная</a></li>
+          <li class="uderline_text">
+            <a class="link link-not-active" href="#">посмотреть лоты</a>
+          </li>
+          <li class="uderline_text">
+            <a class="link link-not-active" href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <a class="header__logo">
-        <img src="./images/logo-black.svg" alt="" />
+        <img src="./images/logo-black.svg" alt="ОНО ТЕБЕ НАДО" />
       </a>
-      <address class="header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="address header__address">
+        <a class="link link-not-active" href="tel:+99995555555"
+          >+9 999 555 5555</a
+        >
+        <a class="link link-not-active" href="mailto:info@sobaka.ge"
+          >info@sobaka.ge</a
+        >
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -33,13 +41,13 @@
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text aligned-text_left letter-spacing-extended"
-            >ОН<span class="no-letter-spacing">О</span></span
+            >он<span class="no-letter-spacing">о</span></span
           >
           <span class="aligned-text aligned-text_center letter-spacing-extended"
-            >ТЕБ<span class="no-letter-spacing">Е</span></span
+            >теб<span class="no-letter-spacing">е</span></span
           >
           <span class="aligned-text aligned-text_right letter-spacing-extended"
-            >НАД<span class="no-letter-spacing">О</span></span
+            >над<span class="no-letter-spacing">о</span></span
           >
         </h1>
         <div class="cover__description">
@@ -112,19 +120,23 @@
 
       <section class="about">
         <div class="about__logo">
-          <img src="./images/logo-white.svg" alt="" class="about__logo-image" />
+          <img
+            src="./images/logo-white.svg"
+            alt="ОНО ТЕБЕ НАДО"
+            class="about__logo-image"
+          />
         </div>
         <div class="about__column">
           <h2 class="about__heading">Об аукционе</h2>
           <div class="about__text">
-            <p class="">
+            <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
               на один аукцион. Потому что кому нужен дневник девочки-подростка
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <p class="">
+            <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотряна
@@ -139,27 +151,33 @@
     </main>
 
     <footer class="footer">
-      <address class="header__address footer_address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="address footer_address">
+        <a class="link link-not-active" href="tel:+99995555555"
+          >+9 999 555 5555</a
+        >
+        <a class="link link-not-active" href="mailto:info@sobaka.ge"
+          >info@sobaka.ge</a
+        >
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item"><a>Главная</a></li>
           <li class="footer__menu-list-item">
-            <a class="uderline_text">посмотреть лоты</a>
+            <a class="link">Главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="uderline_text">об аукционе</a>
+            <a class="link link-not-active">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="link link-not-active">об аукционе</a>
           </li>
         </ul>
       </nav>
 
       <ul class="footer__social-list">
         <li>
-          <a class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -167,12 +185,12 @@
           /></a>
         </li>
         <li>
-          <a class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img class="footer__social-icon" src="./images/vk.svg" alt="VK"
           /></a>
         </li>
         <li>
-          <a class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img
               class="footer__social-icon"
               src="./images/pinterest.svg"
