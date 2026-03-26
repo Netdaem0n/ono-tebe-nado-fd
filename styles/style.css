@@ -73,11 +73,15 @@
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 120px;
   color: #fff;
   font-family: Raleway;
   font-weight: 700;
-  font-weight: bold;
   font-size: 100px;
+  line-height: 1;
   letter-spacing: 30%;
   text-transform: uppercase;
 }
@@ -86,14 +90,6 @@
 .cover__description {
   position: relative;
   z-index: 2;
-}
-
-.cover__title {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 120px;
-  line-height: 1;
 }
 
 .aligned-text {
@@ -125,7 +121,6 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 106px;
-  margin-top: auto;
 }
 
 .cover__description-text {
